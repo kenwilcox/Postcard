@@ -13,6 +13,7 @@
 		BE780DEF19C009770016FEAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE780DEE19C009770016FEAA /* Images.xcassets */; };
 		BE780DFB19C009770016FEAA /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE780DFA19C009770016FEAA /* PostcardTests.swift */; };
 		BEA9BC3219C0156900218F15 /* SagradaFamília.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */; };
+		BEA9BC3519C01CD400218F15 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEA9BC3419C01CD400218F15 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		BE780DFA19C009770016FEAA /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
 		BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SagradaFamília.jpg"; sourceTree = "<group>"; };
 		BEA9BC3319C0183200218F15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BEA9BC3419C01CD400218F15 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		BE780DE519C009770016FEAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEA9BC3419C01CD400218F15 /* AlbertEinsteinStamp.jpg */,
 				BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */,
 				BE780DE619C009770016FEAA /* Info.plist */,
 			);
@@ -194,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA9BC3519C01CD400218F15 /* AlbertEinsteinStamp.jpg in Resources */,
 				BE780DED19C009770016FEAA /* Main.storyboard in Resources */,
 				BE780DEF19C009770016FEAA /* Images.xcassets in Resources */,
 				BEA9BC3219C0156900218F15 /* SagradaFamília.jpg in Resources */,
