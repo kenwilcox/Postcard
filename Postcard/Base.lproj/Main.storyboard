@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wR3-tL-hpD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wR3-tL-hpD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
     </dependencies>
@@ -102,7 +102,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="195" height="99"/>
+                                    <rect key="frame" x="16" y="72" width="195" height="51"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2Y-aQ-muE">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="131" width="200" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -114,6 +123,7 @@
                                 <exclude reference="FcD-dV-zjn"/>
                                 <exclude reference="q6j-mx-S9A"/>
                                 <exclude reference="1hs-X9-Jnf"/>
+                                <exclude reference="e2Y-aQ-muE"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="FcD-dV-zjn"/>
                                 <include reference="q6j-mx-S9A"/>
                                 <include reference="1hs-X9-Jnf"/>
+                                <include reference="e2Y-aQ-muE"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,6 +143,7 @@
                         <outlet property="enterAMessageTextField" destination="FcD-dV-zjn" id="WZc-bY-uCJ"/>
                         <outlet property="enterNameTextField" destination="fn4-g6-Bbq" id="p1u-Gq-RZK"/>
                         <outlet property="messageLabel" destination="1hs-X9-Jnf" id="Od1-Xf-tlz"/>
+                        <outlet property="nameLabel" destination="e2Y-aQ-muE" id="vav-6s-3u9"/>
                         <outlet property="sendMailButton" destination="q6j-mx-S9A" id="owk-xb-sOQ"/>
                     </connections>
                 </viewController>
