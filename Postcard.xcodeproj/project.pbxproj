@@ -36,6 +36,7 @@
 		BE780DF919C009770016FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE780DFA19C009770016FEAA /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
 		BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SagradaFamília.jpg"; sourceTree = "<group>"; };
+		BEA9BC3319C0183200218F15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		BE780DD919C009770016FEAA = {
 			isa = PBXGroup;
 			children = (
+				BEA9BC3319C0183200218F15 /* README.md */,
 				BE780DE419C009770016FEAA /* Postcard */,
 				BE780DF719C009770016FEAA /* PostcardTests */,
 				BE780DE319C009770016FEAA /* Products */,
