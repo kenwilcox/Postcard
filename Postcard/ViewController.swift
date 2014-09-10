@@ -20,13 +20,14 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     messageLabel.hidden = true
+    nameLabel.hidden = true
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-
+  
 
   @IBAction func sendMailButtonPressed(sender: UIButton) {
     messageLabel.text = enterAMessageTextField.text
