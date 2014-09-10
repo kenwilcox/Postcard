@@ -12,6 +12,7 @@
 		BE780DED19C009770016FEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE780DEB19C009770016FEAA /* Main.storyboard */; };
 		BE780DEF19C009770016FEAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE780DEE19C009770016FEAA /* Images.xcassets */; };
 		BE780DFB19C009770016FEAA /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE780DFA19C009770016FEAA /* PostcardTests.swift */; };
+		BEA9BC3219C0156900218F15 /* SagradaFamília.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		BE780DF419C009770016FEAA /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE780DF919C009770016FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE780DFA19C009770016FEAA /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SagradaFamília.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		BE780DE519C009770016FEAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEA9BC3119C0156900218F15 /* SagradaFamília.jpg */,
 				BE780DE619C009770016FEAA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -191,6 +194,7 @@
 			files = (
 				BE780DED19C009770016FEAA /* Main.storyboard in Resources */,
 				BE780DEF19C009770016FEAA /* Images.xcassets in Resources */,
+				BEA9BC3219C0156900218F15 /* SagradaFamília.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +399,7 @@
 				BE780E0019C009770016FEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE780E0119C009770016FEAA /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				BE780E0319C009770016FEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
